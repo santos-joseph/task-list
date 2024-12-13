@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+}
+.card-container {
+    min-height: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.draggable {
+    cursor: move;
+}
+.card {
+    margin: 10px 0;
+}
+.dropzone {
+    min-height: 200px;
+    border: 2px dashed #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.task-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-controls i {
+    cursor: pointer;
+}
+.card-container{
+    border-style: dotted!important;
+}
+.container{
+    height: 100%;
+}
